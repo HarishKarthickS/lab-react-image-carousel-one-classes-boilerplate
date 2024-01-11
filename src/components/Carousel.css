@@ -1,1 +1,40 @@
-/* write your carousel css in this file */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sub-container {
+  height: 100%;
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Content {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content > h1 {
+  font-size: 64px;
+}
+.Content > h2 {
+  font-size: 31px;
+}
+img {
+  height: 100%;
+}
+.arrow {
+  height: 100%;
+  width: 7%;
+  background-color: hsl(0, 0%, 3.53%);
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
