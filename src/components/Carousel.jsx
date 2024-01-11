@@ -42,7 +42,6 @@ class Carousel extends Component {
     }
     const myStyle ={
         backgroundImage:`url(${images[this.state.imageIndex].img})`,
-        backgroundSize: "fit",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize:"100% 100%",
